@@ -39,3 +39,58 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# database files (LibSQL/SQLite)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+local.db*
+
+# logs
+logs/
+*.log
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# cache directories
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+
+# Mastra generated files
+.mastra/
+mastra.log*
